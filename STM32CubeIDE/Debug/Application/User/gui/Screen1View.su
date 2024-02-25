@@ -1,0 +1,20 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+C:/Dev/TouchGFXProjects/Frequency-Analyzer-Display/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:38:6:virtual void Screen1View::tearDownScreen()	0	static
+C:/Dev/TouchGFXProjects/Frequency-Analyzer-Display/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:53:6:void Screen1View::cbRadioBtnGroupHandler(const touchgfx::AbstractButton&)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:touchgfx::Callback<Screen1View, const touchgfx::AbstractButton&>::~Callback()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:386:18:void touchgfx::Callback<dest_type, T1, void, void>::execute(T1) [with dest_type = Screen1View; T1 = const touchgfx::AbstractButton&]	4	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:396:18:bool touchgfx::Callback<dest_type, T1, void, void>::isValid() const [with dest_type = Screen1View; T1 = const touchgfx::AbstractButton&]	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:virtual touchgfx::Callback<Screen1View, const touchgfx::AbstractButton&>::~Callback()	8	static
+../../TouchGFX/gui/include/gui/screen1_screen/Screen1View.hpp:11:13:Screen1View::~Screen1View()	8	static
+../../TouchGFX/gui/include/gui/screen1_screen/Screen1View.hpp:11:13:virtual Screen1View::~Screen1View()	8	static
+C:/Dev/TouchGFXProjects/Frequency-Analyzer-Display/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:44:6:virtual void Screen1View::ChangeGraph(touchgfx::AbstractDataGraph::GraphClickEvent)	8	static
+C:/Dev/TouchGFXProjects/Frequency-Analyzer-Display/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:19:1:Screen1View::Screen1View()	16	static
+C:/Dev/TouchGFXProjects/Frequency-Analyzer-Display/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:110:6:void Screen1View::UpdatePeakFrequency(float)	24	static
+C:/Dev/TouchGFXProjects/Frequency-Analyzer-Display/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:117:6:void Screen1View::UpdateLinearRMS(float)	24	static
+C:/Dev/TouchGFXProjects/Frequency-Analyzer-Display/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:33:6:virtual void Screen1View::setupScreen()	0	static
+C:/Dev/TouchGFXProjects/Frequency-Analyzer-Display/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:76:6:void Screen1View::UpdateGraphScaleMagnitude()	8	static
+C:/Dev/TouchGFXProjects/Frequency-Analyzer-Display/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:87:6:void Screen1View::UpdateGraphScaleDBFS()	8	static
+C:/Dev/TouchGFXProjects/Frequency-Analyzer-Display/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:98:6:void Screen1View::UpdateGraphScalePSD()	8	static
+C:/Dev/TouchGFXProjects/Frequency-Analyzer-Display/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:65:6:virtual void Screen1View::UpdateFrequencyGraph(float*, int)	40	static

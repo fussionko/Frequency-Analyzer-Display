@@ -1,0 +1,7 @@
+C:/Dev/TouchGFXProjects/Frequency-Analyzer-Display/TouchGFX/gui/src/model/Model.cpp:23:1:Model::Model()	16	static
+C:/Dev/TouchGFXProjects/Frequency-Analyzer-Display/TouchGFX/gui/src/model/Model.cpp:28:6:void Model::UpdateGraphScale()	0	static
+C:/Dev/TouchGFXProjects/Frequency-Analyzer-Display/TouchGFX/gui/src/model/Model.cpp:46:6:void Model::tick()	56	static
+C:/Dev/TouchGFXProjects/Frequency-Analyzer-Display/TouchGFX/gui/src/model/Model.cpp:66:6:void Model::UpdateWindowFunction(unsigned char)	4	static
+C:/Dev/TouchGFXProjects/Frequency-Analyzer-Display/TouchGFX/gui/src/model/Model.cpp:72:6:void Model::ProcessDBFSBuffer(float*)	32	static
+C:/Dev/TouchGFXProjects/Frequency-Analyzer-Display/TouchGFX/gui/src/model/Model.cpp:81:6:void Model::ProcessMagnitudeBuffer(float*)	16	static
+C:/Dev/TouchGFXProjects/Frequency-Analyzer-Display/TouchGFX/gui/src/model/Model.cpp:89:6:void Model::ProcessPSDBuffer(float*)	24	static
