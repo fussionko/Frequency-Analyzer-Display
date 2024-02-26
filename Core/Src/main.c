@@ -487,7 +487,7 @@ __NO_RETURN void FFTTask(void* args)
 				float maxMagnitudeSquared	= 0.0f;
 				float peakHz 				= 0.0f;
 
-				// Skip 0 - DC
+
 				for (uint16_t i = 0; i < MAGNITUDE_BUFFER_SIZE; i++)
 				{
 					MagnitudeSquaredBuffer[i] = (sumMagnitudeSquaredBuffer[i] + MagnitudeSquaredBuffer[i]) / (float)OVERLAP_FFT_BUFFER;
@@ -505,7 +505,7 @@ __NO_RETURN void FFTTask(void* args)
 				}
 
 #ifdef FFT_MAGNITUDE_BUFFER_SCALING
-				magnitudeSquaredSum *= 1.0 / ScalingFFTBufferSum[WindowFunctionIndex];
+				magnitudeSquaredSum *= (1.0 / ScalingFFTBufferSum[WindowFunctionIndex]) * 2.0;
 #endif
 				const float linearRMS = sqrtf(magnitudeSquaredSum / MAGNITUDE_BUFFER_SIZE);
 
@@ -517,7 +517,7 @@ __NO_RETURN void FFTTask(void* args)
 
 #else
 #ifdef FFT_MAGNITUDE_BUFFER_SCALING
-			magnitudeSquaredSum *= 1.0 / ScalingFFTBufferSum[WindowFunctionIndex];
+			magnitudeSquaredSum *= (1.0 / ScalingFFTBufferSum[WindowFunctionIndex]) * 2.0;
 #endif
 
 			const float linearRMS = sqrtf(magnitudeSquaredSum / MAGNITUDE_BUFFER_SIZE);
