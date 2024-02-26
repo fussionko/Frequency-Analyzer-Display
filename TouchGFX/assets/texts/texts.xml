@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.23.0">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1">
+      <Text Id="ResourceId1" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">fse</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_R6SY" Alignment="Right" TypographyId="Small">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_PA58" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_L289" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">Avg RMS: &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_JUHU" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_T3HA" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">Magnitude</Translation>
+      </Text>
+      <Text Id="__SingleUse_7WP1" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_WAMO" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">Bin: &lt;value&gt; Hz</Translation>
+      </Text>
+      <Text Id="__SingleUse_B60I" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_C0CS" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_TVYC" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_24UL" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">Peak: &lt;value&gt; kHz</Translation>
+      </Text>
+      <Text Id="__SingleUse_TYV9" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">Window size: &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_PROO" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">FFT Data</Translation>
+      </Text>
+      <Text Id="__SingleUse_7E9B" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">Overlap: &lt;value&gt;%</Translation>
+      </Text>
+      <Text Id="__SingleUse_ETPW" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">Bartlett</Translation>
+      </Text>
+      <Text Id="__SingleUse_GJ4M" Alignment="Center" TypographyId="Small">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_JHF8" Alignment="Center" TypographyId="Small">
+        <Translation Language="GB">Frequency (Hz)</Translation>
+      </Text>
+      <Text Id="__SingleUse_W8QQ" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Window function</Translation>
+      </Text>
+      <Text Id="__SingleUse_P6AU" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">None</Translation>
+      </Text>
+      <Text Id="__SingleUse_NSL4" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">Flat top</Translation>
+      </Text>
+      <Text Id="__SingleUse_U7PY" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">Hamming</Translation>
+      </Text>
+      <Text Id="__SingleUse_7038" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">Hanning</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="sS/PSD()" WidgetWildcardCharacters="-., 0123456789" />
+    <Typography Id="Typography_00" Font="verdana.ttf" Size="12" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography_01" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography_02" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+  </Typographies>
+</TextDatabase>

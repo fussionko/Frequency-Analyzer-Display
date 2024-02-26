@@ -1,0 +1,483 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Screen1",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "TiledImage",
+            "Name": "tiledImage1",
+            "Width": 480,
+            "Height": 272,
+            "FileName": "__generated\\dark_theme_images_containers_large_wide_dark.png"
+          },
+          {
+            "Type": "StaticGraph",
+            "Name": "FrequencyGraph",
+            "X": 15,
+            "Y": 25,
+            "Width": 355,
+            "Height": 215,
+            "LockPosition": true,
+            "DataSeed": -1583552142,
+            "NumberOfValues": 512,
+            "MaxX": 23000.0,
+            "PrecisionX": "1",
+            "MaxY": 1000.0,
+            "PrecisionY": "1",
+            "XAxisScale": 1.0,
+            "LabelSizeTop": 15,
+            "LabelSizeBottom": 15,
+            "LabelSizeLeft": 23,
+            "GraphDrawers": [
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 2,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                }
+              }
+            ],
+            "XAxisGrid": {
+              "Type": "GraphGrid",
+              "Color": {
+                "Red": 20,
+                "Green": 151,
+                "Blue": 197
+              },
+              "Interval": 5000.0,
+              "LineWidth": 1
+            },
+            "YAxisGrid": {
+              "Type": "GraphGrid",
+              "Color": {
+                "Red": 20,
+                "Green": 151,
+                "Blue": 197
+              },
+              "Interval": 100.0,
+              "LineWidth": 1
+            },
+            "XAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 5000.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 20,
+                "Green": 151,
+                "Blue": 197
+              },
+              "TextId": "__SingleUse_JUHU",
+              "TextRotation": "0",
+              "Position": "Bottom"
+            },
+            "YAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 100.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 20,
+                "Green": 151,
+                "Blue": 197
+              },
+              "TextId": "__SingleUse_R6SY",
+              "TextRotation": "0",
+              "Position": "Left"
+            }
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "buttonFlatTop",
+            "X": 383,
+            "Y": 112,
+            "Width": 24,
+            "Height": 24,
+            "FileNameSelected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_on_dark.png",
+            "FileNameSelectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_on_pressed.png",
+            "FileNameUnselected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_off.png",
+            "FileNameUnselectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_off_pressed.png",
+            "RadioButtonGroup": "windowButtonGroup"
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "buttonBartlett",
+            "X": 383,
+            "Y": 141,
+            "Width": 24,
+            "Height": 24,
+            "FileNameSelected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_on_dark.png",
+            "FileNameSelectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_on_pressed.png",
+            "FileNameUnselected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_off.png",
+            "FileNameUnselectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_off_pressed.png",
+            "RadioButtonGroup": "windowButtonGroup"
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "buttonHamming",
+            "X": 383,
+            "Y": 83,
+            "Width": 24,
+            "Height": 24,
+            "FileNameSelected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_on_dark.png",
+            "FileNameSelectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_on_pressed.png",
+            "FileNameUnselected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_off.png",
+            "FileNameUnselectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_off_pressed.png",
+            "RadioButtonGroup": "windowButtonGroup"
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "buttonHanning",
+            "X": 383,
+            "Y": 54,
+            "Width": 24,
+            "Height": 24,
+            "FileNameSelected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_on_dark.png",
+            "FileNameSelectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_on_pressed.png",
+            "FileNameUnselected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_off.png",
+            "FileNameUnselectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_off_pressed.png",
+            "RadioButtonGroup": "windowButtonGroup"
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "buttonNone",
+            "X": 383,
+            "Y": 25,
+            "Width": 24,
+            "Height": 24,
+            "Selected": true,
+            "FileNameSelected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_on_dark.png",
+            "FileNameSelectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_on_pressed.png",
+            "FileNameUnselected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_off.png",
+            "FileNameUnselectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_off_pressed.png",
+            "RadioButtonGroup": "windowButtonGroup"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textAreaHanning",
+            "X": 415,
+            "Y": 60,
+            "Width": 41,
+            "Height": 12,
+            "TextId": "__SingleUse_7038",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textAreaNone",
+            "X": 415,
+            "Y": 31,
+            "Width": 25,
+            "Height": 12,
+            "TextId": "__SingleUse_P6AU",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textAreaHamming",
+            "X": 415,
+            "Y": 89,
+            "Width": 49,
+            "Height": 12,
+            "TextId": "__SingleUse_U7PY",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textAreaFlatTop",
+            "X": 415,
+            "Y": 118,
+            "Width": 39,
+            "Height": 12,
+            "TextId": "__SingleUse_NSL4",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textAreaBartlett",
+            "X": 415,
+            "Y": 144,
+            "Width": 38,
+            "Height": 12,
+            "TextId": "__SingleUse_ETPW",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textAreaWindowFunction",
+            "X": 377,
+            "Y": 7,
+            "Width": 100,
+            "Height": 12,
+            "TextId": "__SingleUse_W8QQ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textAreaGraphLabelX",
+            "X": 180,
+            "Y": 240,
+            "Width": 78,
+            "Height": 12,
+            "TextId": "__SingleUse_JHF8",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textAreaGraphLabelY",
+            "X": 3,
+            "Y": 99,
+            "Width": 12,
+            "Height": 85,
+            "TextId": "__SingleUse_GJ4M",
+            "TextRotation": "270",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_T3HA",
+              "UseBuffer": true,
+              "BufferSize": 15
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textAreaOverlap",
+            "X": 377,
+            "Y": 218,
+            "Width": 100,
+            "Height": 12,
+            "TextId": "__SingleUse_7E9B",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_TVYC",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textAreaFFT",
+            "X": 389,
+            "Y": 176,
+            "Width": 53,
+            "Height": 12,
+            "TextId": "__SingleUse_PROO",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textAreaWindowSize",
+            "X": 377,
+            "Y": 193,
+            "Width": 100,
+            "Height": 12,
+            "TextId": "__SingleUse_TYV9",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_C0CS",
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textAreaPeakFrequency",
+            "X": 377,
+            "Y": 231,
+            "Width": 100,
+            "Height": 12,
+            "TextId": "__SingleUse_24UL",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_B60I",
+              "UseBuffer": true,
+              "BufferSize": 8
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textAreaBin",
+            "X": 377,
+            "Y": 205,
+            "Width": 100,
+            "Height": 12,
+            "TextId": "__SingleUse_WAMO",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_7WP1",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textAreaLinearRMS",
+            "X": 377,
+            "Y": 244,
+            "Width": 100,
+            "Height": 12,
+            "TextId": "__SingleUse_L289",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_PA58",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "ChangeGraph",
+            "Trigger": {
+              "Type": "TriggerGraphClicked",
+              "TriggerComponent": "FrequencyGraph"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "ChangeGraph"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "Frequency-Analyzer-Display",
+    "Resolution": {
+      "Width": 480,
+      "Height": 272
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Screen1",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 480,
+        "Height": 272
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32H7",
+    "SubFamily": "STM32H750 Value line",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m7",
+    "ProjectFile": "../STM32H750B-DK.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": [
+      "CWRVector",
+      "VectorFonts",
+      "Video"
+    ]
+  },
+  "Version": "4.23.0",
+  "CreatedBy": "4.23.0"
+}
